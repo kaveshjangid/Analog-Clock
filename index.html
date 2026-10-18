@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kavesh's Analog Clock</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="clock">
+
+            <div class="outer-ring"></div>
+
+
+            <svg class="clock-text" viewBox="0 0 500 500">
+
+                <defs>
+
+                    <path
+                        id="topCurve"
+                        d="M 45,250 A 205,205 0 0,1 455,250"
+                        fill="none"
+                    />
+
+                </defs>
+
+                <text>
+
+                    <textPath
+                        href="#topCurve"
+                        startOffset="50%"
+                        text-anchor="middle">
+
+                        KAVESH'S ANALOG CLOCK
+
+                    </textPath>
+
+                </text>
+
+            </svg>
+
+
+            <div class="clock-face">
+
+
+                <span style="--j:1">
+                    <b>1</b>
+                </span>
+
+                <span style="--j:2">
+                    <b>2</b>
+                </span>
+
+                <span style="--j:3">
+                    <b>3</b>
+                </span>
+
+                <span style="--j:4">
+                    <b>4</b>
+                </span>
+
+                <span style="--j:5">
+                    <b>5</b>
+                </span>
+
+                <span style="--j:6">
+                    <b>6</b>
+                </span>
+
+                <span style="--j:7">
+                    <b>7</b>
+                </span>
+
+                <span style="--j:8">
+                    <b>8</b>
+                </span>
+
+                <span style="--j:9">
+                    <b>9</b>
+                </span>
+
+                <span style="--j:10">
+                    <b>10</b>
+                </span>
+
+                <span style="--j:11">
+                    <b>11</b>
+                </span>
+
+                <span style="--j:12">
+                    <b>12</b>
+                </span>
+
+
+                <div class="markers"></div>
+
+
+                <div class="hand hour-hand"></div>
+
+                <div class="hand minute-hand"></div>
+
+                <div class="hand second-hand"></div>
+
+
+                <div class="center-dot"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
